@@ -18,7 +18,7 @@ app.use(express.json({ limit: '10mb' }));  // Limit for JSON bodies
 
 app.use(cors({
   credentials: true,
-  origin: 'http://localhost:3000'
+  origin: 'https://team-management-frontend-roan.vercel.app'
 }));
 
 app.use(cookieparser());
